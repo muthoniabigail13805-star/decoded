@@ -1,7 +1,10 @@
-cd/opt
-sudo git clone https://github.com
-cd/yersinia
-sudo./autogen.sh
-sudo./configure --with-gtk
+#!/bin/bash
+# Build and install Yersinia with GTK support
+
+cd /opt
+sudo git clone https://github.com/tomac/yersinia.git
+cd yersinia
+sudo ./autogen.sh
+sudo ./configure --with-gtk
 sudo make
 sudo make install
