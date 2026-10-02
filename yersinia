@@ -1,0 +1,7 @@
+cd/opt
+sudo git clone https://github.com
+cd/yersinia
+sudo./autogen.sh
+sudo./configure --with-gtk
+sudo make
+sudo make install
